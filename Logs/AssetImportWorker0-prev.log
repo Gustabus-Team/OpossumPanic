@@ -1,76 +1,412 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1348; Version 2009; 64bit' Language: 'es' Physical Memory: 16245 MB
+OS: 'Windows 10 Home Single Language; OS build 19042.1348; Version 2009; 64bit' Language: 'es' Physical Memory: 7869 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\ianxx\UnityProjects\2020.3.18f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Programas/GitHub Repository/OpossumPanic
+C:/Users/delta/Documents/GitHub/OpossumPanic
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61901
-Successfully changed project path to: D:/Programas/GitHub Repository/OpossumPanic
-D:/Programas/GitHub Repository/OpossumPanic
+64955
+Successfully changed project path to: C:/Users/delta/Documents/GitHub/OpossumPanic
+C:/Users/delta/Documents/GitHub/OpossumPanic
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 96.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
-[Subsystems] Discovering subsystems at path D:/ianxx/UnityProjects/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Programas/GitHub Repository/OpossumPanic/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/delta/Documents/GitHub/OpossumPanic/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a5)
     Vendor:   
-    VRAM:     4021 MB
+    VRAM:     3991 MB
     Driver:   30.0.14.9709
 Initialize mono
-Mono path[0] = 'D:/ianxx/UnityProjects/2020.3.18f1/Editor/Data/Managed'
-Mono path[1] = 'D:/ianxx/UnityProjects/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/ianxx/UnityProjects/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/ianxx/UnityProjects/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.251677 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003022 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 87.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  9.083 seconds
+- Completed reload, in  1.861 seconds
 Domain Reload Profiling:
-	ReloadAssembly (9084ms)
-		BeginReloadAssembly (5187ms)
+	ReloadAssembly (1861ms)
+		BeginReloadAssembly (35ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1614ms)
-			LoadAssemblies (5178ms)
+		EndReloadAssembly (285ms)
+			LoadAssemblies (33ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (971ms)
+			SetupTypeCache (101ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (401ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (112ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (88ms)
-				BeforeProcessingInitializeOnLoad (37ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
+				RefreshPlugins (26ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (50ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 1.042982 seconds.
+Registered in 0.446570 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.697 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1701ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1551ms)
+			LoadAssemblies (1046ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (223ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1582 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.9 MB.
+System memory in use after: 72.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2017.
+Total: 2.064800 ms (FindLiveObjects: 0.120100 ms CreateObjectMapping: 0.028500 ms MarkObjects: 1.861200 ms  DeleteObjects: 0.054200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/props/Torres
+  artifactKey: Guid(65769c21e1f4d4e4d88da289b30c54a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/Torres using Guid(65769c21e1f4d4e4d88da289b30c54a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32f50ecc1eba96737d4b55ec724cfb3') in 0.008207 seconds 
+  Import took 0.010369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/props
+  artifactKey: Guid(b4e0fd332c63865499c149a7b94f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props using Guid(b4e0fd332c63865499c149a7b94f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfdc3710099b8158ea57f58d5c84560') in 0.005728 seconds 
+  Import took 0.007838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/props/Torres/Prefabs
+  artifactKey: Guid(0173d65b45915d14586f39d18a7c5bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/Torres/Prefabs using Guid(0173d65b45915d14586f39d18a7c5bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874b79f3bb20d7a4848f24214597da63') in 0.005729 seconds 
+  Import took 0.007772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/props/Torres/tower01.fbx
+  artifactKey: Guid(f7bd8029b5dd9de4eac020071771b3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/Torres/tower01.fbx using Guid(f7bd8029b5dd9de4eac020071771b3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7e0d11501ef829d86af13a7111a1cf') in 0.186186 seconds 
+  Import took 0.188631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/props/Torres/towe02.fbx
+  artifactKey: Guid(9f72b158145fddd429962cc44c304606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/Torres/towe02.fbx using Guid(9f72b158145fddd429962cc44c304606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa80e98dd66e155de9f700beba230a9a') in 0.041872 seconds 
+  Import took 0.044217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.566092 seconds.
+  path: Assets/props/edificios
+  artifactKey: Guid(b358b0ec63527374e888137225330dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios using Guid(b358b0ec63527374e888137225330dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d70d684a17d1447665282805b50a25') in 0.007179 seconds 
+  Import took 0.010432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.703423 seconds.
+  path: Assets/props/edificios/edificio_01.fbx
+  artifactKey: Guid(82c6893e74b876b44bb60815f32eb018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_01.fbx using Guid(82c6893e74b876b44bb60815f32eb018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1d419f1f342f0ec58a6e3300cd824f') in 0.071410 seconds 
+  Import took 0.074753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000855 seconds.
+  path: Assets/props/edificios/edificio_11.fbx
+  artifactKey: Guid(9e309b099434cc64c9bbc947057c25f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_11.fbx using Guid(9e309b099434cc64c9bbc947057c25f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb6c30736bd7e49bb73eb71ad8adcc1') in 0.082479 seconds 
+  Import took 0.086683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/props/edificios/edificio_13.fbx
+  artifactKey: Guid(18cee1acd6e8ccb4c92119eaacc85628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_13.fbx using Guid(18cee1acd6e8ccb4c92119eaacc85628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8ef3f4328efd8729c2c5b92f8b7c6c') in 0.078315 seconds 
+  Import took 0.085848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/props/edificios/edificio_07.fbx
+  artifactKey: Guid(27584e0411ceb674ead706c8360d78c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_07.fbx using Guid(27584e0411ceb674ead706c8360d78c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ef6071347d99b02457e9cf454cf91a') in 0.064207 seconds 
+  Import took 0.067503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/props/edificios/edificio_03.fbx
+  artifactKey: Guid(f469919804b7ea442b135c4c2d178baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_03.fbx using Guid(f469919804b7ea442b135c4c2d178baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a8d7f15544a80080ea7bc73aae07cc') in 0.073233 seconds 
+  Import took 0.075725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/props/edificios/edificio_12.fbx
+  artifactKey: Guid(1ce4313875e04b3438b0960d96b781e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_12.fbx using Guid(1ce4313875e04b3438b0960d96b781e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199c68fddea229dc1d218a985c0212d2') in 0.061926 seconds 
+  Import took 0.064739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/props/edificios/edificio_08.fbx
+  artifactKey: Guid(e348a65b59b994e4daa222f1c273d21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_08.fbx using Guid(e348a65b59b994e4daa222f1c273d21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5b3f36ed4f08e3bc23d51ced4e8f75') in 0.050415 seconds 
+  Import took 0.053035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/props/edificios/edificio_14.fbx
+  artifactKey: Guid(24a0ef5a734642c4f8ab40c4dcb670ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_14.fbx using Guid(24a0ef5a734642c4f8ab40c4dcb670ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231ced9b1a498991bbfa65a885806a13') in 0.056151 seconds 
+  Import took 0.058583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/props/edificios/edificio_04.fbx
+  artifactKey: Guid(17623b780a769304c8d473c401937345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_04.fbx using Guid(17623b780a769304c8d473c401937345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb02096788f15cabb506820a14f50685') in 0.037856 seconds 
+  Import took 0.040045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/props/edificios/edificio_02.fbx
+  artifactKey: Guid(62b1c7fe9ff9add4d97aeb0986635ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_02.fbx using Guid(62b1c7fe9ff9add4d97aeb0986635ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc1cc951028404371b4a9da3c3f096e') in 0.068513 seconds 
+  Import took 0.070817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/props/edificios/edificio_09.fbx
+  artifactKey: Guid(cde5a975ed8504147aa6d0fcb8146feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_09.fbx using Guid(cde5a975ed8504147aa6d0fcb8146feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570f2ea91a76f5e6078aebd7e1e2d5a5') in 0.040314 seconds 
+  Import took 0.042791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/props/edificios/edificio_10.fbx
+  artifactKey: Guid(ebe0dc81588fa4d40ba9edee3ef339be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_10.fbx using Guid(ebe0dc81588fa4d40ba9edee3ef339be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc57f387db36af649e28dff25f4bd9b') in 0.074015 seconds 
+  Import took 0.077055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/props/edificios/edificio_05.fbx
+  artifactKey: Guid(82cdfa4d23779f445a8b3c245eb6f6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_05.fbx using Guid(82cdfa4d23779f445a8b3c245eb6f6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfca6a29febf3c6d277871b45c0e3687') in 0.059124 seconds 
+  Import took 0.061682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/props/edificios/edificio_06.fbx
+  artifactKey: Guid(cd3b9c73846aaf045bf4d8cb5e161215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_06.fbx using Guid(cd3b9c73846aaf045bf4d8cb5e161215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0095b29ffd331de234b23caadb64404f') in 0.056400 seconds 
+  Import took 0.058825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1380.732133 seconds.
+  path: Assets/props/edificios/edificio_01.fbx
+  artifactKey: Guid(82c6893e74b876b44bb60815f32eb018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_01.fbx using Guid(82c6893e74b876b44bb60815f32eb018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecb595c529389c7f17f7972712ed773') in 0.083221 seconds 
+  Import took 0.104724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001100 seconds.
+  path: Assets/props/edificios/edificio_11.fbx
+  artifactKey: Guid(9e309b099434cc64c9bbc947057c25f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_11.fbx using Guid(9e309b099434cc64c9bbc947057c25f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13292492ea85d32ebb775bf61490fb4') in 0.098341 seconds 
+  Import took 0.101405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/props/edificios/edificio_13.fbx
+  artifactKey: Guid(18cee1acd6e8ccb4c92119eaacc85628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_13.fbx using Guid(18cee1acd6e8ccb4c92119eaacc85628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4056f3cc970287bde93c2d0ce1cbd2') in 0.046523 seconds 
+  Import took 0.048901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/props/edificios/edificio_07.fbx
+  artifactKey: Guid(27584e0411ceb674ead706c8360d78c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_07.fbx using Guid(27584e0411ceb674ead706c8360d78c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c67c43e705391ff4fbfc1175fe8eb7f') in 0.056713 seconds 
+  Import took 0.059036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/props/edificios/edificio_03.fbx
+  artifactKey: Guid(f469919804b7ea442b135c4c2d178baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_03.fbx using Guid(f469919804b7ea442b135c4c2d178baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e127690a1bc036ed221f93d20d71ea') in 0.061530 seconds 
+  Import took 0.063890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/props/edificios/edificio_12.fbx
+  artifactKey: Guid(1ce4313875e04b3438b0960d96b781e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_12.fbx using Guid(1ce4313875e04b3438b0960d96b781e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8813b1903420912f3d069ec4a7780bd') in 0.061691 seconds 
+  Import took 0.064014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/props/edificios/edificio_08.fbx
+  artifactKey: Guid(e348a65b59b994e4daa222f1c273d21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_08.fbx using Guid(e348a65b59b994e4daa222f1c273d21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6ee3d0810cf22eb535587d973328f9') in 0.058425 seconds 
+  Import took 0.061094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/props/edificios/edificio_14.fbx
+  artifactKey: Guid(24a0ef5a734642c4f8ab40c4dcb670ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_14.fbx using Guid(24a0ef5a734642c4f8ab40c4dcb670ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d24630ead1bd5daa8cda3f8fa884bd5') in 0.059030 seconds 
+  Import took 0.061454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/props/edificios/edificio_04.fbx
+  artifactKey: Guid(17623b780a769304c8d473c401937345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_04.fbx using Guid(17623b780a769304c8d473c401937345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc01cd31f40dc36dd67f4c01ae6fa6ad') in 0.034956 seconds 
+  Import took 0.037561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/props/edificios/edificio_15.fbx
+  artifactKey: Guid(d78594a9acec9f841aaa7aae38d76b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_15.fbx using Guid(d78594a9acec9f841aaa7aae38d76b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f380ab782a3dc2714acd41296cbba877') in 0.055522 seconds 
+  Import took 0.058091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/props/edificios/edificio_02.fbx
+  artifactKey: Guid(62b1c7fe9ff9add4d97aeb0986635ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_02.fbx using Guid(62b1c7fe9ff9add4d97aeb0986635ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c51532d7096dc4e496aaf695c3235d') in 0.067952 seconds 
+  Import took 0.071884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000975 seconds.
+  path: Assets/props/edificios/edificio_09.fbx
+  artifactKey: Guid(cde5a975ed8504147aa6d0fcb8146feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_09.fbx using Guid(cde5a975ed8504147aa6d0fcb8146feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d49e15508c14b934f843bb614dfafc') in 0.060478 seconds 
+  Import took 0.064445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/props/edificios/edificio_10.fbx
+  artifactKey: Guid(ebe0dc81588fa4d40ba9edee3ef339be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_10.fbx using Guid(ebe0dc81588fa4d40ba9edee3ef339be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6a155347a39060c72ceaef5b6c4df8') in 0.067248 seconds 
+  Import took 0.069826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/props/edificios/edificio_05.fbx
+  artifactKey: Guid(82cdfa4d23779f445a8b3c245eb6f6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_05.fbx using Guid(82cdfa4d23779f445a8b3c245eb6f6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be7a3a96fc500fc0530cbbf29058ad7') in 0.038139 seconds 
+  Import took 0.040513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/props/edificios/edificio_06.fbx
+  artifactKey: Guid(cd3b9c73846aaf045bf4d8cb5e161215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/props/edificios/edificio_06.fbx using Guid(cd3b9c73846aaf045bf4d8cb5e161215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df663a4332a739498d8a3066833f7ce') in 0.037737 seconds 
+  Import took 0.040057 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
