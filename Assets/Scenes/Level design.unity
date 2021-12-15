@@ -16395,7 +16395,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c335165663be50f4bb2eb3eb85d0a6d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dineroInGame: 0
+  alturaTorreZaris: 1
+  dineroQueSeEstaGanando: 0
   NumeroDeZarigueyasEncima: 0
 --- !u!1001 &1802946351
 PrefabInstance:
@@ -19390,7 +19391,7 @@ GameObject:
   - component: {fileID: 91895873260275505}
   m_Layer: 0
   m_Name: ModelRoot
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19443,7 +19444,7 @@ GameObject:
   - component: {fileID: 60457859050775668}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19479,7 +19480,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 94897550358801220}
-  - component: {fileID: 92319677643120173}
   m_Layer: 0
   m_Name: Model
   m_TagString: Untagged
@@ -19487,18 +19487,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &92319677643120173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 92319677643120172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf04ac66812abff4f9d16e3ea59969b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &94315683108846354
 Transform:
   m_ObjectHideFlags: 0
@@ -23392,6 +23380,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 19362599}
     m_Modifications:
+    - target: {fileID: 340899841774208729, guid: f0d2a8e8d43fbb74d87132f3602eace4, type: 3}
+      propertyPath: m_Name
+      value: ZariCria
+      objectReference: {fileID: 0}
     - target: {fileID: 1740458447950673888, guid: f0d2a8e8d43fbb74d87132f3602eace4, type: 3}
       propertyPath: m_Name
       value: Edificio15
