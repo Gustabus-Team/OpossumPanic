@@ -384,3 +384,228 @@ Received Import Request.
 Start importing Assets/Zarigueya modelado y textura/Prefabs_Zari/Zari_Idle_Anim.prefab using Guid(03989aa995fdf5c4c8e16e313c86b85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49ae04ea404e6135aeee2311dd0162d') in 0.159296 seconds 
   Import took 0.169009 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 227.675713 seconds.
+  path: Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller
+  artifactKey: Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller using Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8680150398341f4c95352efc2cd4ab3') in 0.019866 seconds 
+  Import took 0.035211 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.213 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2213ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (1813ms)
+			LoadAssemblies (249ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (678ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (623ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (429ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2923 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.5 MB.
+System memory in use after: 173.2 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 3456.
+Total: 11.826500 ms (FindLiveObjects: 0.451600 ms CreateObjectMapping: 0.229300 ms MarkObjects: 5.926000 ms  DeleteObjects: 5.217800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 441.077186 seconds.
+  path: Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller
+  artifactKey: Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller using Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1147987a14fe088e5424030ebf76e713') in 0.050195 seconds 
+  Import took 0.063987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 279.311670 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari_Idle_Anim.fbx
+  artifactKey: Guid(cf2cac88e29c7244fbe5f28b30ddc9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari_Idle_Anim.fbx using Guid(cf2cac88e29c7244fbe5f28b30ddc9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca6facbc5b6952030ed42c3473f64a2') in 0.257526 seconds 
+  Import took 0.270941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.175484 seconds.
+  path: Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller
+  artifactKey: Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller using Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf386f3e073465eaadc09f099c5abed') in 0.016054 seconds 
+  Import took 0.025605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000983 seconds.
+  path: Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller
+  artifactKey: Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller using Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf386f3e073465eaadc09f099c5abed') in 0.012202 seconds 
+  Import took 0.023859 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.082 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2083ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1710ms)
+			LoadAssemblies (236ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (642ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (590ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (403ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2923 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.4 MB.
+System memory in use after: 173.2 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 3459.
+Total: 11.162100 ms (FindLiveObjects: 0.445500 ms CreateObjectMapping: 0.255200 ms MarkObjects: 5.087800 ms  DeleteObjects: 5.371700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.174129 seconds.
+  path: Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller
+  artifactKey: Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller using Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f11969f25492398c972e4467d47993') in 0.040540 seconds 
+  Import took 0.050499 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010296 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.564 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2565ms)
+		BeginReloadAssembly (492ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (114ms)
+		EndReloadAssembly (1920ms)
+			LoadAssemblies (274ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (683ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (683ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (470ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2923 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.5 MB.
+System memory in use after: 173.2 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 3461.
+Total: 10.624800 ms (FindLiveObjects: 0.493000 ms CreateObjectMapping: 0.247300 ms MarkObjects: 4.903200 ms  DeleteObjects: 4.979500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 564.308113 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari_Idle_Anim.fbx
+  artifactKey: Guid(cf2cac88e29c7244fbe5f28b30ddc9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari_Idle_Anim.fbx using Guid(cf2cac88e29c7244fbe5f28b30ddc9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb7fe3614a325123e6255e5707ca998') in 0.200749 seconds 
+  Import took 0.212193 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
