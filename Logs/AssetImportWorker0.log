@@ -1,123 +1,123 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16331 MB
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1348; Version 2009; 64bit' Language: 'es' Physical Memory: 16245 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
+D:\ianxx\UnityProjects\2020.3.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/gusta/Documents/GitHub/OpossumPanic
+D:/Programas/GitHub Repository/OpossumPanic
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64220
-Successfully changed project path to: C:/Users/gusta/Documents/GitHub/OpossumPanic
-C:/Users/gusta/Documents/GitHub/OpossumPanic
+50997
+Successfully changed project path to: D:/Programas/GitHub Repository/OpossumPanic
+D:/Programas/GitHub Repository/OpossumPanic
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 91.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 199.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/gusta/Documents/GitHub/OpossumPanic/Assets
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path D:/ianxx/UnityProjects/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Programas/GitHub Repository/OpossumPanic/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
     Vendor:   
-    VRAM:     6052 MB
+    VRAM:     4021 MB
     Driver:   30.0.14.9709
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Mono path[0] = 'D:/ianxx/UnityProjects/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'D:/ianxx/UnityProjects/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/ianxx/UnityProjects/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003619 seconds.
+Register platform support module: D:/ianxx/UnityProjects/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002549 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 68.02 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 118.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.287 seconds
+- Completed reload, in  2.419 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1287ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (2419ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (474ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (842ms)
+			LoadAssemblies (136ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (158ms)
+			SetupTypeCache (286ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (203ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (358ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (68ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (81ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (31ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008965 seconds.
+Registered in 0.007906 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.243 seconds
+- Completed reload, in  2.204 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1245ms)
-		BeginReloadAssembly (158ms)
+	ReloadAssembly (2206ms)
+		BeginReloadAssembly (330ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1004ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1763ms)
+			LoadAssemblies (204ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (395ms)
+			SetupTypeCache (613ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (608ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (261ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (19ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (434ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.6 MB.
-System memory in use after: 115.0 MB.
+System memory in use before: 121.4 MB.
+System memory in use after: 119.6 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2190.
-Total: 5.539500 ms (FindLiveObjects: 0.273500 ms CreateObjectMapping: 0.042800 ms MarkObjects: 2.786800 ms  DeleteObjects: 2.434100 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2200.
+Total: 6.245500 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.102700 ms MarkObjects: 4.608000 ms  DeleteObjects: 1.282800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,217 +131,280 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Level design.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level design.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467670757b363d6c68a8796380ed4f5c') in 0.017445 seconds 
-  Import took 0.021165 seconds .
+  path: Assets/Zarigueya modelado y textura/Zari.prefab
+  artifactKey: Guid(3c222807d2b6ea54fad0f6c5a894497b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari.prefab using Guid(3c222807d2b6ea54fad0f6c5a894497b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5847a27a0cee1f5c6d4239b6998036a7') in 0.415884 seconds 
+  Import took 0.421049 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 96.301453 seconds.
-  path: Assets/props
-  artifactKey: Guid(b4e0fd332c63865499c149a7b94f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props using Guid(b4e0fd332c63865499c149a7b94f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfdc3710099b8158ea57f58d5c84560') in 0.004621 seconds 
-  Import took 0.007497 seconds .
+  Time since last request: 0.000430 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari.fbx
+  artifactKey: Guid(a2e6eeb968f57fa45aa37fa427ff8b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari.fbx using Guid(a2e6eeb968f57fa45aa37fa427ff8b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a5bd4de5aa0cf6cfc111b6d166a130') in 0.311523 seconds 
+  Import took 0.317777 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.476115 seconds.
-  path: Assets/props/Mats
-  artifactKey: Guid(1935d1de4946ba0409d00c6bbeb80c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Mats using Guid(1935d1de4946ba0409d00c6bbeb80c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2151c90f3d295ec5455e74e796300e73') in 0.004286 seconds 
-  Import took 0.007069 seconds .
+  Time since last request: 677.619678 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari_Idle.blend
+  artifactKey: Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari_Idle.blend using Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f67c418229a1c9f432fb80eaa4cba82') in 0.243429 seconds 
+  Import took 0.250511 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.076609 seconds.
-  path: Assets/props/Mats/Under Level.mat
-  artifactKey: Guid(583404e428f724846a26335e34aa8e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Mats/Under Level.mat using Guid(583404e428f724846a26335e34aa8e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16641d3be5a44de83ef72351aac61d0c') in 0.098737 seconds 
-  Import took 0.101852 seconds .
+  Time since last request: 158.013981 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari_Idle.blend
+  artifactKey: Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari_Idle.blend using Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68783f9e37dd1c04bdc4dbceedd8a312') in 0.200647 seconds 
+  Import took 0.209909 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.876913 seconds.
-  path: Assets/props/Mats/Grass.mat
-  artifactKey: Guid(db54733e0356c0747ac78dd2d7e150bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Mats/Grass.mat using Guid(db54733e0356c0747ac78dd2d7e150bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9232d136a7b9fcb2b1ccb936077e54') in 0.011699 seconds 
-  Import took 0.015132 seconds .
+  Time since last request: 117.946809 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari_Idle.blend
+  artifactKey: Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari_Idle.blend using Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bfdf92a8392e576a8b67970520d038') in 0.085783 seconds 
+  Import took 0.094193 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 151.334291 seconds.
-  path: Assets/props/Mats/Grass.mat
-  artifactKey: Guid(db54733e0356c0747ac78dd2d7e150bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Mats/Grass.mat using Guid(db54733e0356c0747ac78dd2d7e150bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c67488ed97f3e31dadee238729f064') in 0.013775 seconds 
-  Import took 0.017022 seconds .
+  Time since last request: 155.740518 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari_Idle.blend
+  artifactKey: Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari_Idle.blend using Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73bd5523bf93196c0390fd28aeaf1cf') in 0.087980 seconds 
+  Import took 0.096585 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 214.157014 seconds.
-  path: Assets/props/Camino de Tierra Prefab
-  artifactKey: Guid(cfbc755dc71c24348889fe2bf5335aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Camino de Tierra Prefab using Guid(cfbc755dc71c24348889fe2bf5335aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33531b32eadfde6183d20c5588fd2982') in 0.004460 seconds 
-  Import took 0.007402 seconds .
+  Time since last request: 0.036943 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari_Idle.blend
+  artifactKey: Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari_Idle.blend using Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73bd5523bf93196c0390fd28aeaf1cf') in 0.086178 seconds 
+  Import took 0.091926 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.528682 seconds.
-  path: Assets/props/Carretera Prefab
-  artifactKey: Guid(7792112df293f81429e7f5109441bafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Carretera Prefab using Guid(7792112df293f81429e7f5109441bafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc285dfb5d9152bc36b16fcec4b715e') in 0.004543 seconds 
-  Import took 0.007335 seconds .
+  Time since last request: 139.658731 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari_Idle.blend
+  artifactKey: Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari_Idle.blend using Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb859938c78ae713ce1743b9fd451878') in 0.075265 seconds 
+  Import took 0.081268 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.061762 seconds.
-  path: Assets/props/Carretera Prefab/Barrera.prefab
-  artifactKey: Guid(10100347373e371438c8f62927286856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Carretera Prefab/Barrera.prefab using Guid(10100347373e371438c8f62927286856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f78aafb9cf18aac02bf6f1f318dc209') in 0.024986 seconds 
-  Import took 0.028253 seconds .
+  Time since last request: 25.164575 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari_Idle.blend
+  artifactKey: Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari_Idle.blend using Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e1e2c7f3ea6d9bdf28ecc42cb6796a') in 0.070122 seconds 
+  Import took 0.075497 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/props/Carretera Prefab/Single Road DriveAway.prefab
-  artifactKey: Guid(fdd6a64eae2070c4fb0d2a2b82a6bdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Carretera Prefab/Single Road DriveAway.prefab using Guid(fdd6a64eae2070c4fb0d2a2b82a6bdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479f17710c82e63e08a1eb5f52fdb181') in 0.012721 seconds 
-  Import took 0.015604 seconds .
+  Time since last request: 30.743161 seconds.
+  path: Assets/Zarigueya modelado y textura/Animacion/In_Game
+  artifactKey: Guid(d1461687f0bfd6d4c95564801f896563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Animacion/In_Game using Guid(d1461687f0bfd6d4c95564801f896563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b0cb881a00772fbd9aa62069ba4b7f') in 0.010886 seconds 
+  Import took 0.016395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.098668 seconds.
+  path: Assets/Zarigueya modelado y textura/Animacion/Cinematic
+  artifactKey: Guid(ab452e9b82b567e4784dacfcee37fb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Animacion/Cinematic using Guid(ab452e9b82b567e4784dacfcee37fb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0af73df5b173a3cbde08057a16b48a6') in 0.011121 seconds 
+  Import took 0.016330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.991456 seconds.
+  path: Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller
+  artifactKey: Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller using Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2468781c92efddf11365f43b3d8511') in 0.023231 seconds 
+  Import took 0.028380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.577941 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari_Idle.blend
+  artifactKey: Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari_Idle.blend using Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c42e4a1f8d6e33f2f5fb62489eb2859') in 0.065521 seconds 
+  Import took 0.071969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 292.172498 seconds.
+  path: Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller
+  artifactKey: Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller using Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373a6d32133b77cb7d17f1a08b3f8bae') in 0.011648 seconds 
+  Import took 0.017635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035666 seconds.
+  path: Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller
+  artifactKey: Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller using Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373a6d32133b77cb7d17f1a08b3f8bae') in 0.005224 seconds 
+  Import took 0.010506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.210951 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/ZariMATS/ZariShader.mat
+  artifactKey: Guid(8c8fcb9d74a4f26469bb8cb445b7a54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/ZariMATS/ZariShader.mat using Guid(8c8fcb9d74a4f26469bb8cb445b7a54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72acecc0f7e9ba86ca8f88fd4bf23d16') in 0.048504 seconds 
+  Import took 0.056263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003977 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/ZariMATS/ZariShader.mat
+  artifactKey: Guid(8c8fcb9d74a4f26469bb8cb445b7a54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/ZariMATS/ZariShader.mat using Guid(8c8fcb9d74a4f26469bb8cb445b7a54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72acecc0f7e9ba86ca8f88fd4bf23d16') in 0.028271 seconds 
+  Import took 0.034186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.792400 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari_Idle.blend
+  artifactKey: Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari_Idle.blend using Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9b4124c7b9784506a804b1a627e826') in 0.049840 seconds 
+  Import took 0.055753 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1818ms)
+		BeginReloadAssembly (225ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1489ms)
+			LoadAssemblies (198ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (539ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (526ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (376ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1663 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 126.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2246.
+Total: 6.146200 ms (FindLiveObjects: 0.284700 ms CreateObjectMapping: 0.101700 ms MarkObjects: 4.508500 ms  DeleteObjects: 1.249800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95.936393 seconds.
+  path: Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller
+  artifactKey: Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Animacion/Cinematic/Idle_Controller.controller using Guid(665fcac2a8ca683418a7f1fafbbe0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2885193323665640fbb5e2a963908f84') in 0.034299 seconds 
+  Import took 0.039700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.130012 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari_Idle.prefab
+  artifactKey: Guid(16bfc44f026d90143bf7f3abfe3ba6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari_Idle.prefab using Guid(16bfc44f026d90143bf7f3abfe3ba6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a677af568bfe85554fd4e8de269f4dfc') in 0.111300 seconds 
+  Import took 0.117719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.121872 seconds.
+  path: Assets/Zarigueya modelado y textura/Prefabs_Zari
+  artifactKey: Guid(58c47ed30aaa6e54daae1be1f88fbd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Prefabs_Zari using Guid(58c47ed30aaa6e54daae1be1f88fbd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7056dac638e7fb2d8ff7c4753f3bbf2') in 0.009746 seconds 
+  Import took 0.014585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.560699 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/Skins
+  artifactKey: Guid(4d8dc25a2b160e24f9cecf43dac65aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/Skins using Guid(4d8dc25a2b160e24f9cecf43dac65aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2495c5764c84853b0e8d7fb371ede1c') in 0.010636 seconds 
+  Import took 0.016376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.198641 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/Skins/Chef_Zari.png
+  artifactKey: Guid(69335a276cb1abc4f9bdc19812ce2fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/Skins/Chef_Zari.png using Guid(69335a276cb1abc4f9bdc19812ce2fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45769ad5e4d0d6a6d6616ec899c6097') in 0.040312 seconds 
+  Import took 0.045338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_Wizard.png
+  artifactKey: Guid(c1134ee06c9c0124695fd47843efb89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_Wizard.png using Guid(c1134ee06c9c0124695fd47843efb89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a60a99551ec057a8cef3ae5a4e3256f') in 0.018828 seconds 
+  Import took 0.023477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_President.png
+  artifactKey: Guid(a36ef27721bac0a47abf0f4c1bdeabcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_President.png using Guid(a36ef27721bac0a47abf0f4c1bdeabcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884aed4c908ab48413784ff0d5045621') in 0.021432 seconds 
+  Import took 0.026377 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000324 seconds.
-  path: Assets/props/Carretera Prefab/Concrete.mat
-  artifactKey: Guid(460b1f2efdb430b448dd7191cbc6d6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Carretera Prefab/Concrete.mat using Guid(460b1f2efdb430b448dd7191cbc6d6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec114845a404f22d84f81a37275ba01') in 0.012139 seconds 
-  Import took 0.015406 seconds .
+  path: Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_Gntleman_Hat.png
+  artifactKey: Guid(24602faa9088f664bbb032b5e955a0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_Gntleman_Hat.png using Guid(24602faa9088f664bbb032b5e955a0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725e8619e115fb3fc2a7cfc8b533f0bc') in 0.022000 seconds 
+  Import took 0.026768 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/props/Carretera Prefab/Faro Doble.prefab
-  artifactKey: Guid(c7e476630fefc354dace3f723656b38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Carretera Prefab/Faro Doble.prefab using Guid(c7e476630fefc354dace3f723656b38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c5cb048040b85a8658a3e3c0c15a2e') in 0.012193 seconds 
-  Import took 0.015313 seconds .
+  Time since last request: 0.000440 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/Skins/Zaei_Gentleman.png
+  artifactKey: Guid(98979bcc56544c548a09ccd7f0a3ef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/Skins/Zaei_Gentleman.png using Guid(98979bcc56544c548a09ccd7f0a3ef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2d760c1584f01f468348a39fc350a2') in 0.025907 seconds 
+  Import took 0.032135 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/props/Carretera Prefab/Low_Tile.prefab
-  artifactKey: Guid(a798fa3850ac76c488545f80a6428b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Carretera Prefab/Low_Tile.prefab using Guid(a798fa3850ac76c488545f80a6428b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185bed7bca8337b1a4e39f62829a4d61') in 0.013108 seconds 
-  Import took 0.016057 seconds .
+  Time since last request: 0.000394 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_Christmas_TX.png
+  artifactKey: Guid(324fea9290329f444b1032d9d79c91b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_Christmas_TX.png using Guid(324fea9290329f444b1032d9d79c91b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4038f2450a379ee68030af2e8c7b0a4b') in 0.025715 seconds 
+  Import took 0.032895 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/props/Carretera Prefab/Quad Road.prefab
-  artifactKey: Guid(dbb46868a3352fd48ac11995746d471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Carretera Prefab/Quad Road.prefab using Guid(dbb46868a3352fd48ac11995746d471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966044c14c9949b79e90e89040b872f7') in 0.011866 seconds 
-  Import took 0.014572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/props/Carretera Prefab/Cono.prefab
-  artifactKey: Guid(9e2a668c916b8db4584ac5337d62dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Carretera Prefab/Cono.prefab using Guid(9e2a668c916b8db4584ac5337d62dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbba4b588f4af72664a31f24075d6596') in 0.012076 seconds 
-  Import took 0.015048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/props/Carretera Prefab/Turn Road.prefab
-  artifactKey: Guid(b01e8e608e13c7a43a7b212bed9c876e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Carretera Prefab/Turn Road.prefab using Guid(b01e8e608e13c7a43a7b212bed9c876e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c77bd3d113b3128de3208e7d32609bc') in 0.012088 seconds 
-  Import took 0.015361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/props/Carretera Prefab/Faro.prefab
-  artifactKey: Guid(868c3aac23021a046895d02889bc76f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Carretera Prefab/Faro.prefab using Guid(868c3aac23021a046895d02889bc76f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68a68dac5b350dc854b3310304209da') in 0.012021 seconds 
-  Import took 0.015045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/props/Carretera Prefab/Crossing Road.prefab
-  artifactKey: Guid(fc3210facce8b8b4b82aa01eb0497a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Carretera Prefab/Crossing Road.prefab using Guid(fc3210facce8b8b4b82aa01eb0497a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b888ca1ef7e97159ab51da4eb3847c') in 0.011766 seconds 
-  Import took 0.014951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000460 seconds.
-  path: Assets/props/Carretera Prefab/End Road.prefab
-  artifactKey: Guid(b10272648528bd844a30e9fa7591c000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Carretera Prefab/End Road.prefab using Guid(b10272648528bd844a30e9fa7591c000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba3837a8c2c125a2e702589abd6a262') in 0.011865 seconds 
-  Import took 0.015481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/props/Carretera Prefab/Straight Road.prefab
-  artifactKey: Guid(80a5d9922b8939c4a9218837731d5b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Carretera Prefab/Straight Road.prefab using Guid(80a5d9922b8939c4a9218837731d5b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f750bdfa8f04e8a13aa31ad691aa4d6b') in 0.011739 seconds 
-  Import took 0.014947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/props/Carretera Prefab/Quad Road Walk.prefab
-  artifactKey: Guid(2360b0b2cbbc17b488eb91faeda3ecc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Carretera Prefab/Quad Road Walk.prefab using Guid(2360b0b2cbbc17b488eb91faeda3ecc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6df2d7af6a740c5de4d8a8c9453f8ab') in 0.011666 seconds 
-  Import took 0.014630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.909743 seconds.
-  path: Assets/props/Camino de Tierra Prefab/End Road Dirt.prefab
-  artifactKey: Guid(35427961b155c85409f76fbe580b750f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Camino de Tierra Prefab/End Road Dirt.prefab using Guid(35427961b155c85409f76fbe580b750f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185d1194414c10170331af39be20f26c') in 0.015064 seconds 
-  Import took 0.018438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/props/Camino de Tierra Prefab/Turn Road Dirt_01.prefab
-  artifactKey: Guid(4b645d75594e05548954319ccddee01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Camino de Tierra Prefab/Turn Road Dirt_01.prefab using Guid(4b645d75594e05548954319ccddee01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9c8a7a3c86ef082b6d908f40db796d') in 0.016309 seconds 
-  Import took 0.019403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/props/Camino de Tierra Prefab/Tree_02.prefab
-  artifactKey: Guid(fe03680b432f3d24ebbf4409d407e0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Camino de Tierra Prefab/Tree_02.prefab using Guid(fe03680b432f3d24ebbf4409d407e0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f991ffb66336e2f106e84340d576a74') in 0.031676 seconds 
-  Import took 0.034601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/props/Camino de Tierra Prefab/Tree_01.prefab
-  artifactKey: Guid(6681cd0bda7e02a4d8942fa8d2fcc69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Camino de Tierra Prefab/Tree_01.prefab using Guid(6681cd0bda7e02a4d8942fa8d2fcc69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbade428d68dec08944429a85ee477c') in 0.017677 seconds 
-  Import took 0.020651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/props/Camino de Tierra Prefab/Quad Road Dirt.prefab
-  artifactKey: Guid(d2eddb675e243ce4aa93d5087733a116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Camino de Tierra Prefab/Quad Road Dirt.prefab using Guid(d2eddb675e243ce4aa93d5087733a116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c3ad9c1ba792fb8eb967fb16b9a5ad') in 0.014076 seconds 
-  Import took 0.017631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/props/Camino de Tierra Prefab/Turn Road Dirt_02.prefab
-  artifactKey: Guid(a713507bc5d0c1440b05b6a7516ef5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/Camino de Tierra Prefab/Turn Road Dirt_02.prefab using Guid(a713507bc5d0c1440b05b6a7516ef5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bf8fe3fb6cce8a3a44b04e3eb79a19') in 0.012647 seconds 
-  Import took 0.015824 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
