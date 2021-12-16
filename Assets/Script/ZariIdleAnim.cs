@@ -10,6 +10,7 @@ public class ZariIdleAnim : MonoBehaviour
     void Start()
     {
         idleAnimator = GetComponent<Animator>();
+        StartCoroutine(ActivateNewIdle(3,5));
     }
 
     public IEnumerator ActivateNewIdle(float min, float max)
@@ -22,4 +23,7 @@ public class ZariIdleAnim : MonoBehaviour
 
         yield break;
     }
+
+
+
 }
