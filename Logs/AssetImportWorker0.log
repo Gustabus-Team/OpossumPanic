@@ -2937,3 +2937,203 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007877 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.774 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1775ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1477ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (500ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (583ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (406ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2919 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.5 MB.
+System memory in use after: 233.1 MB.
+
+Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 3605.
+Total: 8.761700 ms (FindLiveObjects: 0.424300 ms CreateObjectMapping: 0.219000 ms MarkObjects: 4.257400 ms  DeleteObjects: 3.859600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1009.074639 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari.fbx
+  artifactKey: Guid(a2e6eeb968f57fa45aa37fa427ff8b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari.fbx using Guid(a2e6eeb968f57fa45aa37fa427ff8b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f5f079cba70c12142a17aecce9bb6d') in 0.156047 seconds 
+  Import took 0.163761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari15.blend
+  artifactKey: Guid(0a8ebc272e6dd8641ad160e52f149533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari15.blend using Guid(0a8ebc272e6dd8641ad160e52f149533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd47cf76ad6d668c97a058c44f3d975') in 0.108808 seconds 
+  Import took 0.116514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Zarigueya modelado y textura/Zari_Idle.blend
+  artifactKey: Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Zari_Idle.blend using Guid(85ce3cca259da874290e82e498727aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f644151a436c22cf746fc3cf73966838') in 0.052083 seconds 
+  Import took 0.059708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.640182 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/Skins
+  artifactKey: Guid(4d8dc25a2b160e24f9cecf43dac65aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/Skins using Guid(4d8dc25a2b160e24f9cecf43dac65aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d3c80d3641da337c40297f41949dff') in 0.010466 seconds 
+  Import took 0.018215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037409 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/Skins/Chef_Zari.png
+  artifactKey: Guid(69335a276cb1abc4f9bdc19812ce2fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/Skins/Chef_Zari.png using Guid(69335a276cb1abc4f9bdc19812ce2fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fcf274b68640b60853fa6292838895') in 0.028317 seconds 
+  Import took 0.035175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_Wizard.png
+  artifactKey: Guid(c1134ee06c9c0124695fd47843efb89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_Wizard.png using Guid(c1134ee06c9c0124695fd47843efb89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebe8c971fe7ee07ff945147e7d39366') in 0.025874 seconds 
+  Import took 0.032474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_President.png
+  artifactKey: Guid(a36ef27721bac0a47abf0f4c1bdeabcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_President.png using Guid(a36ef27721bac0a47abf0f4c1bdeabcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a30438c41fde9520b04ec53f0d6b229') in 0.026729 seconds 
+  Import took 0.033798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/Skins/Zaei_Gentleman.png
+  artifactKey: Guid(98979bcc56544c548a09ccd7f0a3ef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/Skins/Zaei_Gentleman.png using Guid(98979bcc56544c548a09ccd7f0a3ef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac3329b27510fb9041f430da2497d29') in 0.025086 seconds 
+  Import took 0.031828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_Christmas_TX.png
+  artifactKey: Guid(324fea9290329f444b1032d9d79c91b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_Christmas_TX.png using Guid(324fea9290329f444b1032d9d79c91b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43283b5b0da11ca34d05af21e15346da') in 0.036052 seconds 
+  Import took 0.044265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/Skins/Zaei_Gentleman.png
+  artifactKey: Guid(98979bcc56544c548a09ccd7f0a3ef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/Skins/Zaei_Gentleman.png using Guid(98979bcc56544c548a09ccd7f0a3ef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac3329b27510fb9041f430da2497d29') in 0.019250 seconds 
+  Import took 0.026896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_Christmas_TX.png
+  artifactKey: Guid(324fea9290329f444b1032d9d79c91b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zarigueya modelado y textura/Texturas/Skins/Zari_Christmas_TX.png using Guid(324fea9290329f444b1032d9d79c91b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43283b5b0da11ca34d05af21e15346da') in 0.019214 seconds 
+  Import took 0.027270 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008191 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.678 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1678ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1385ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (489ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (513ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (333ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2919 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 251.2 MB.
+System memory in use after: 246.8 MB.
+
+Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 3609.
+Total: 8.372100 ms (FindLiveObjects: 0.427100 ms CreateObjectMapping: 0.226600 ms MarkObjects: 4.108700 ms  DeleteObjects: 3.608100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
