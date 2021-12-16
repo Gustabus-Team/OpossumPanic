@@ -11,10 +11,26 @@ public class UIManager : MonoBehaviour
     public RectTransform panelTienda;
     public Button skinsBoton;
     public Button tiendaBoton;
+    public GameObject Tutorial;
+    public GameObject botonTutorial;
     private void Awake()
     {
+        //PlayerPrefs.DeleteAll();
+        if(PlayerPrefs.GetInt("PrimerInicio") == 0)
+        {
+            botonTutorial.SetActive(false); 
+            Tutorial.SetActive(true);
+            StartCoroutine(BotontTutorial());
+            PlayerPrefs.SetInt("PrimerInicio", 1);
+        }
         cargandoPantalla.gameObject.SetActive(true);
         StartCoroutine(cargando());
+    }
+    IEnumerator BotontTutorial()
+    {
+        yield return new WaitForSeconds(3);
+        botonTutorial.SetActive(true);
+        yield break;
     }
     IEnumerator cargando()
     {

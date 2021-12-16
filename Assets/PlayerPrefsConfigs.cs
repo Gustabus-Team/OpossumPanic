@@ -11,9 +11,4 @@ public class PlayerPrefsConfigs : MonoBehaviour
     {
         
     }
-
-
-
-
-
 }

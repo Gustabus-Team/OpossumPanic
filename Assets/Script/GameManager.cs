@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
 
 
     public static GameManager _gameManager;
-    public int dineroQueSeEstaGanando;
+    public int dineroActual = 1000;
     public static int dineroTotal;
     public int NumeroDeZarigueyasEncima;
 
