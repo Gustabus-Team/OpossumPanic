@@ -1,4 +1,4 @@
-Base path: 'D:/ianxx/UnityProjects/2020.3.18f1/Editor/Data', plugins path 'D:/ianxx/UnityProjects/2020.3.18f1/Editor/Data/PlaybackEngines'
+Base path: 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
 <<<<<<< HEAD
@@ -311,3 +311,5 @@ Cmd: compileSnippet
 =======
 >>>>>>> eaaed20a966c950a04d75512337d2daf5197373c
 Cmd: shutdown
+
+Quitting shader compiler process
