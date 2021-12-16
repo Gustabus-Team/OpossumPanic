@@ -7,6 +7,7 @@ using DG.Tweening;
 public class UIManager : MonoBehaviour
 {
     public RectTransform PanelConSkins;
+    public RectTransform panelTienda;
     public Button skinsBoton;
     public Button tiendaBoton;
     void Start()
@@ -20,7 +21,7 @@ public class UIManager : MonoBehaviour
         
     }
 
-    public void BotonTiendaPresionado()
+    public void BotonSkinsPresionado()
     {
         skinsBoton.interactable = false;
         tiendaBoton.interactable = false;
@@ -31,7 +32,12 @@ public class UIManager : MonoBehaviour
         skinsBoton.interactable = true;
         tiendaBoton.interactable = true;
         PanelConSkins.DOAnchorPosX(-2000, 0.5f);
-
+    }
+    public void BotonTiendaPresionado()
+    {
+        skinsBoton.interactable = false;
+        tiendaBoton.interactable = false;
+        PanelConSkins.DOAnchorPosX(0, 0.5f);
     }
 
 }
