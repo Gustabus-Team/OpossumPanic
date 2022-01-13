@@ -12,6 +12,8 @@ public class CambioDeSkin : MonoBehaviour
     public void BotonCambioSkin(int seleccionTraje)
     {
         SkinesZarigueya.material = texturas[seleccionTraje];
+        ZarigueyaPlayer.material = texturas[seleccionTraje];
+
         SkinActual = seleccionTraje;
         PlayerPrefs.SetInt("SkinActual", SkinActual);
     }
@@ -19,6 +21,8 @@ public class CambioDeSkin : MonoBehaviour
     private void Awake()
     {
         SkinesZarigueya.material = texturas[PlayerPrefs.GetInt("SkinActual")];
+        ZarigueyaPlayer.material = texturas[PlayerPrefs.GetInt("SkinActual")];
+
     }
 
     void Start()

@@ -11,7 +11,7 @@ public class Shop : MonoBehaviour
     public Button[] botonYaUsado;
 
 
-    private void Awake()
+    public void Awake()
     {
         if(PlayerPrefs.GetInt("boton1") == 1)
         {

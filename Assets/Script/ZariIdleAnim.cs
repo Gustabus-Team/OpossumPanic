@@ -13,20 +13,42 @@ public class ZariIdleAnim : MonoBehaviour
         idleAnimator = GetComponent<Animator>();
         if(IsInGame)
         {
-            StartCoroutine(ActivateNewIdle(3, 5, "mirar_atras"));
+            
+           StartCoroutine(saludando());
         }
     }
-
-    public IEnumerator ActivateNewIdle(float min, float max, string animToActivate)
+    public string[] animations;
+    public bool activado = true;
+    IEnumerator saludando()
     {
-        float randNum = Random.Range(min, max);
-
-        idleAnimator.SetBool(animToActivate, true);
+        idleAnimator.SetBool("saludo", true);
         idleAnimator.SetBool("normal_idle", false);
-        yield return new WaitForSeconds(randNum);
-        idleAnimator.SetBool(animToActivate, false);
+        yield return new WaitForSeconds(3);
+        idleAnimator.SetBool("saludo", false);
         idleAnimator.SetBool("normal_idle", true);
+        yield return new WaitForSeconds(2);
+        StartCoroutine(ActivateNewIdle());
 
+
+        yield break;
+    }
+    public IEnumerator ActivateNewIdle()
+    {
+        while (activado)
+        {
+
+            string animToActivate = animations[Random.Range(0, 7)];
+            print(animToActivate);
+            //float randNum = Random.Range(min, max);
+
+            idleAnimator.SetBool(animToActivate, true);
+            idleAnimator.SetBool("normal_idle", false);
+            yield return new WaitForSeconds(3);
+            idleAnimator.SetBool(animToActivate, false);
+            idleAnimator.SetBool("normal_idle", true);
+            yield return new WaitForSeconds(2);
+
+        }
         yield break;
     }
 

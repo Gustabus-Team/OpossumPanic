@@ -13,13 +13,19 @@ public class Edificios : MonoBehaviour
         {
             if(GameManager._gameManager.NumeroDeZarigueyasEncima >= numeroNecesarioParaRomperse && seActivo == false)
             {
+                GameManager._gameManager.NumeroDeZarigueyasEncima++;
+                GameManager._gameManager.dineroActual += 50;
                 print("Se rompe");
                 zarigueyita.parent = other.transform;
                 zarigueyita.transform.DOLocalJump(new Vector3(other.transform.localPosition.x, GameManager._gameManager.alturaTorreZaris, other.transform.localPosition.z), 5, 1, 0.5f);
                 GameManager._gameManager.alturaTorreZaris += 1.2f;
                 zarigueyita.transform.DOLocalRotate(new Vector3(0, 0, 0), 0.5f);
                 seActivo = true;
-            //    jumpFallOpossum += 0.8f;
+                //    jumpFallOpossum += 0.8f;
+                transform.DOScale(new Vector3(0, 0, 0), 1);
+                GetComponent<Rigidbody>().isKinematic = false;
+                GameManager._gameManager.cameraMove();
+
             }
         }
 

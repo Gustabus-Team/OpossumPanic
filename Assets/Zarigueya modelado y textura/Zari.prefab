@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2748174440359675812}
   - component: {fileID: 1264563177593325569}
   - component: {fileID: 3920478907625487563}
+  - component: {fileID: 3001419059788879820}
   m_Layer: 0
   m_Name: Zari
   m_TagString: Untagged
@@ -83,3 +84,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3001419059788879820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3272052850640952606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8391f4ab749bc4148af7dfc371ca1907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texturas:
+  - {fileID: 2100000, guid: 8c8fcb9d74a4f26469bb8cb445b7a54f, type: 2}
+  - {fileID: 2100000, guid: 4607d1a319fada14991bd2cc6b528cc7, type: 2}
+  - {fileID: 2100000, guid: 5fc4a4c64c48c924e921205549ce1ad3, type: 2}
+  - {fileID: 2100000, guid: 41ae7953003c3cb4fa319d713bbe7336, type: 2}
+  - {fileID: 2100000, guid: 7e70faeb54e99b24c818ce47480119d9, type: 2}
+  - {fileID: 2100000, guid: 60d2798308110c344aec32b0b798e813, type: 2}
+  - {fileID: 2100000, guid: a75d60d1b09412845a73dc226d2373d7, type: 2}
+  numeroSkin: 0

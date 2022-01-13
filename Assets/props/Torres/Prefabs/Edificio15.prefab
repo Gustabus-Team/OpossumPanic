@@ -70,7 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3d4c7c51e0e014c99c4b775692277a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroNecesarioParaRomperse: 13
+  numeroNecesarioParaRomperse: 3
   zarigueyita: {fileID: 1148644632247147619}
   seActivo: 0
 --- !u!1001 &1526307470011716474

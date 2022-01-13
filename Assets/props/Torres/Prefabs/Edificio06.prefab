@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!65 &6910366865801735339
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3699968232047580884}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 34.929276, y: 33.74461, z: 45.362133}
-  m_Center: {x: -0.034485824, y: 16.908972, z: 0.72812766}
 --- !u!65 &2507359202219920710
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26,6 +13,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 34.929276, y: 33.74461, z: 45.362133}
   m_Center: {x: -0.034485824, y: 16.908972, z: 0.72812766}
+--- !u!65 &6910366865801735339
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3699968232047580884}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 34, y: 33, z: 45}
+  m_Center: {x: -0.034485824, y: 16.908972, z: 0.72812766}
 --- !u!114 &7400609222838756091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38,7 +38,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3d4c7c51e0e014c99c4b775692277a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroNecesarioParaRomperse: 19
+  numeroNecesarioParaRomperse: 3
   zarigueyita: {fileID: 6593596629924622291}
   seActivo: 0
 --- !u!1 &5625860135008889434
